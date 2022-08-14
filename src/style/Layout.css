@@ -1,0 +1,42 @@
+
+.containerHome{
+    background-color: rgb(231, 231, 231);
+    width: 70%;
+    height: 550px;
+    margin: 5% auto;
+    text-align: center;
+    /* z-index: 2; */
+    /* border: 1px solid #000; */
+    
+}
+.containerHome h3{
+    color:rgb(24, 100, 37) ;
+    font-size: 60px;
+}
+.informacionCliente{
+    background-color: rgb(24, 100, 37);
+    width: 70%;
+    height: 30%;
+    border-radius: 30px 30px 0px 0px;
+    position: absolute;
+    bottom: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .link img{
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.nombreCliente{
+    color: #fff ;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+}

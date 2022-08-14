@@ -1,0 +1,42 @@
+.cotainerMainCard{
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    /* z-index: 3; */
+}
+.containerCard{
+ 
+    background-color: #fff;
+    width: 150px;
+    height: 200px;
+    margin: 20px 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: width 2s, background-color 1s, box-shadow 1s;
+}
+.containerCard:hover{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+}
+.containerCard .img{
+    width: 80px;
+    height: 100px;
+    margin: 0 auto;
+}
+.containerCard img{
+    width: 100% ;
+
+}
+.containerCard .link{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(24, 100, 37);
+}

@@ -1,0 +1,79 @@
+.containerVista{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+}
+.containerVista img{
+    width: 50%;
+    height: 50%;
+    margin: auto 0;
+}
+.contenedorSaldo {
+    position: relative;
+    width: 50%;
+    /* height: auto; */
+    background-color: #fff;
+    /* margin: 10% auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.saldoActualizado {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saldoActualizado h3 {
+    margin: 10px auto 25px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.saldoActualizado input {
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.saldoActualizado {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.saldoActualizado span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contenedorOperaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenedorOperaciones p {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedorSaldo button {
+    margin: 20px;
+    width: 65px;
+}
